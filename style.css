@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+a:hover {
+    padding: 10px;
+    background-color: #232463;
+    color: #FFFFFF;
+}
+
+* {
+    background-color:beige;
+}
+
+img {
+    position: relative;
+}
