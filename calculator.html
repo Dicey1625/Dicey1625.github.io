@@ -1,8 +1,32 @@
-<button type="button"><a href="index.html">button</a></button>
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            background-color: white;
+        }
+    </style>
+    <body>
+    <script src="function.js" charset="utf-8"></script>
+    <div class="navbar"><ul><li>
+            <a href="index.html">home</a>
+        </li></ul><br>
+    </div>
+<form>
+    <input type="number1" name="num1" id="num1" value="">
+    <select id="operand">
+        <option value="plus">+</option>
+        <option value="minus">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <input name="num2" id="num2" value="">
+    <button type="reset" name="button"">Clear</button>
 
-<input type="number1" name="num1" id="num1" value="">
-+
-<input type="number2" name="num2" id="num2" value="">
+</form>
+
 <button type="button" name="button" onclick="calculate()">Answer</button>
-<label id="sum"></label>
-<script src="calc.js" charset="utf-8"></script>
+
+<label id="answer"></label>
+</body>
+</html>
